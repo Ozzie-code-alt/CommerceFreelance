@@ -9,14 +9,14 @@
     "lint": "prettier --check .",
     "format": "prettier --write ."
   },
-"husky": {
-  "hooks": {
-    "pre-commit": "lint-staged"
-  }
-},
-"lint-staged": {
-  "*": "prettier --write"
-},
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*": "prettier --write"
+  },
   "dependencies": {
     "@prisma/client": "^5.16.1",
     "husky": "^9.0.11",
