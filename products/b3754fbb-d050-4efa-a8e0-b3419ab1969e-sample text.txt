@@ -1,0 +1,31 @@
+what i did yesterday, 
+continued work for Rider onboarding backend pero received instructions to stop kay i move tanan na sign up related sa admin soo i took new task populate/ connect driver order beckend frontends instead 
+
+what i will be doing today
+continue said task
+
+blockers:
+ none
+
+
+
+email, name  add to user 
+
+tanan na user related add sa model User
+
+
+User Fields: 
+Sex 
+Date of Birth 
+Email Address
+Contact Number
+
+  {
+    "name": "Miguel2",
+    "password": "Pokemon1234",
+    "email": "miguel@gmail.coms",
+    "role": "USER",
+    "phoneNumber": "092837467822",
+    "sex": "Female",
+    "birthDate": "1970-01-01T00:00:00.000Z"
+  }
