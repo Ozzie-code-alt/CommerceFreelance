@@ -2,7 +2,7 @@ import React from 'react';
 import PageHeader from '../_components/pageHeader';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
-import { Table, TableHead, TableHeader, TableRow } from '@/components/ui/table';
+import { Table, TableBody, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 
 const AdminProductsPage = () => {
   return (
@@ -38,6 +38,7 @@ function ProductsTable() {
           </TableHead>
         </TableRow>
       </TableHeader>
+      <TableBody></TableBody>
     </Table>
   );
 }
